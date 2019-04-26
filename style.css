@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+@import url('https://use.fontawesome.com/releases/v5.8.1/css/all.css');
+
+body {
+  background-color: rgb(245, 245, 245);
+  font-family: 'Raleway', sans-serif;
+  color: #28262C;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+h1, h2, h3 {
+  color: #1D3557;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 54px;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+a {
+  text-decoration: none;
+  color: #893168;
+  opacity: 0.85;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.btn-purple {
+  background-color: #893168;
+  color: white;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-weight: bold;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.btn-purple:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.btn-purple:active {
+  position: relative;
+  top: 1px;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 30px 0;
+  width: 750px;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 6px;
+  box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  padding: 50px 20px;
+}
+
+#intro {
+  margin-bottom: 50px;
+}
+
+.home-image {
+  width: 20%;
+  margin: 0 auto;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 100%;
+}
+.text-center {
+  text-align: center;
+}
+
+.social_list {
+  margin: 30px 0;
+}
+
+.social_list li {
+  display: inline-block;
+  margin: 0 20px;
+  font-size: 40px;
+  opacity: 0.9;
+}
+
+.social_list li:hover {
+  opacity: 1;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 600px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 450px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 350px;
+  }
+}
